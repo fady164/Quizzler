@@ -6,8 +6,8 @@ import 'question.dart';
 class QuizBrain{
   int _quesnum = 0;
   List<Question> _quesBank=[
-    Question( questions:'اكمل مكان النقط ...رنب',questionAnswer:true),
-    Question(questions:'Is Mazen a gay?',questionAnswer:true),
+    Question( questions:'Are you from Eygpt?',questionAnswer:true),
+    Question(questions:'Is the dog in the garden?',questionAnswer:true),
   ];
 
   void nextQues(){
